@@ -76,6 +76,7 @@ int main()
                 map[guard_y][guard_x] = 'X';
                 guard_x = next_x;
                 guard_y = next_y;
+                map[guard_y][guard_x] = 'X';
             }
         }
         else
